@@ -1,0 +1,28 @@
+
+
+body{
+    height: 100vh;
+    background: url(../media/images/bg-repeat.jpg);
+    background-size: contain;
+
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+}
+
+
+.container .form{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
